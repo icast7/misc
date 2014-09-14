@@ -1,0 +1,37 @@
+Brown Furniture Company makes three kinds of office furniture: chairs, desks, and tables. Each
+product requires skilled labor in the parts fabrication department, unskilled labor in the assembly
+department, machining on some key pieces of equipment, and some wood as raw material. At
+current prices, the unit profit contribution for each product is known, and the company can sell
+everything that it manufactures. The size of the workforce has been established, so the number
+of skilled and unskilled labor hours are known. The time available on the relevant equipment
+has also been determined, and a known quantity of wood can be obtained each month under
+a contract with a wood supplier. Managers at Brown Furniture would like to maximize their
+profit contribution for the month by choosing production quantities for the chairs, desks, and
+tables. The data shown below summarize the parameters of the problem.
+
+#######################################
+library(lpSolve)
+library(lpSolveAPI)
+# Set the number of vars
+model <- make.lp(0, 3)
+# Define the object function: for Minimize, use -ve
+set.objfn(model, c(16, 20, 14))
+# Add the constraints
+add.constraint(model, c(4, 6, 2), "<=", 2000)
+add.constraint(model, c(3, 8, 6), "<=", 2000)
+add.constraint(model, c(9, 6, 4), "<=", 1440)
+add.constraint(model, c(30, 40, 25), "<=", 9600)
+# Set the upper and lower bounds
+set.bounds(model, lower=c(0, 0, 0), upper=c(10000, 10000, 10000))
+#Set to maximize
+lp.control(model,sense='max')
+#Write model
+### write.lp(model,'model.lp',type='lp')
+# Compute the optimized model
+solve(model)
+# Get the value of the optimized parameters
+get.variables(model)
+# Get the value of the objective function
+get.objective(model)
+# Get the value of the constraint
+get.constraints(model)
