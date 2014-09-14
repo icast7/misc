@@ -1,0 +1,7 @@
+c:\users\icastillejos\documents\visual studio 2010\Projects\Location\Location\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\icastillejos\documents\visual studio 2010\Projects\Location\Location\bin\Debug\Location.exe
+c:\users\icastillejos\documents\visual studio 2010\Projects\Location\Location\bin\Debug\Location.pdb
+c:\users\icastillejos\documents\visual studio 2010\Projects\Location\Location\obj\x86\Debug\Location.exe
+c:\users\icastillejos\documents\visual studio 2010\Projects\Location\Location\obj\x86\Debug\Location.pdb
+C:\Users\Public\Documents\OMSE\OMSEGIT7\LocationRecorder\Location\obj\x86\Debug\Location.exe
+C:\Users\Public\Documents\OMSE\OMSEGIT7\mobile_application\LocationRecorderDiagram\Location\obj\x86\Debug\Location.exe

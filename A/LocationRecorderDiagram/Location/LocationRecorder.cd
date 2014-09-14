@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Location.ActivityLocationRecorder">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Location.ActivityLocationRecorder.TryStart" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.TryGetNewRoute" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.WorkerThreadSampling" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.TrySampleLocation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.TrySettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.TryLogout" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.TrySto" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.WorkerThreadTransmitting" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Location.ActivityLocationRecorder.TrySendCoord" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLocationRecorder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActivityLocationRecorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location.LocationRecorderSettings" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocationRecorderSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location.Activity" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Activity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location.ActivitySettings">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Location.ActivitySettings.TrySave" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivitySettings.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.ActivitySettings.TryCancel" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivitySettings.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ActivitySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location.AsyncTask" Collapsed="true">
+    <Position X="5.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AsyncTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location.ResourceChecker">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Location.ResourceChecker.Pass" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ResourceChecker.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Location.StaticMethods">
+    <Position X="5.25" Y="4.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Location.StaticMethods.Constants" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StaticMethods.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Location.StaticMethods.InputFilterMinMax" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>StaticMethods.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Location.Runnable" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Runnable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Location.EnumApplicationStatus" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumApplicationStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Location.EnumTransmissionUnits" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTransmissionUnits.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

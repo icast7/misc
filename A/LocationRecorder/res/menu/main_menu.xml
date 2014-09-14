@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" name="main_menu">
+    <item android:id="@+id/newroute_menu_item" android:title="New Route"/>
+    <item android:id="@+id/renameroute_menu_item" android:title="Rename Route"/>
+    <item android:id="@+id/settings_menu_item" android:title="Settings"/>
+    <item android:id="@+id/logout_menu_item" android:title="Logout" />
+</menu>

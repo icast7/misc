@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#FF333333">
+    <TableRow>
+        <TextView
+            android:id="@+id/loginLabel"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:text="@string/login_name"/>
+        <EditText
+            android:id="@+id/loginValue"
+       		android:layout_width="1dip"
+        	android:layout_weight="1"
+            android:layout_column="2"
+            android:gravity="left"
+            android:layout_span="2"
+            android:hint="">
+            <requestFocus />
+        </EditText>       
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/passwordLabel"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:padding="1dip"
+            android:text="@string/password_name"/>
+
+        <EditText
+            android:id="@+id/passwordValue"
+            android:layout_width="1dip"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:hint=""
+            android:inputType="textPassword"
+            android:padding="3dip"
+            android:text="" >
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/urlLabel"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:text="@string/url_name" />
+
+        <EditText
+            android:id="@+id/urlValue"
+            android:layout_width="1dip"
+        	android:layout_weight="1"
+            android:hint=""
+            android:text=""
+            android:layout_column="1"
+            android:layout_span="2">
+            <requestFocus />
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/intervalLabel"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:text="@string/interval_name"/>
+        <EditText
+            android:id="@+id/intervalValue"
+    		android:layout_width="0dip"
+        	android:layout_weight="1"
+            android:layout_column="1"
+            android:inputType="number">
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:id="@+id/interval2Label"
+            android:layout_width="wrap_content"
+            android:layout_column="2"
+            android:text="@string/seconds_name"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/transLabel"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:text="@string/trans_interval_name"/>
+        <EditText
+            android:id="@+id/transValue"
+      		android:layout_width="0dip"
+        	android:layout_weight="1"
+            android:layout_column="1"
+            android:inputType="number">
+            <requestFocus />
+        </EditText>
+        <Spinner android:id="@+id/unitsSpinner"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_column="2"
+        android:prompt="@string/inter_default"
+        android:entries="@array/inter_units"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/saveButton"
+	  		android:layout_weight="1"
+      		android:layout_width="0dip"
+    	    android:layout_height="fill_parent"
+            android:text="@string/save_name"/>
+        <Button
+            android:id="@+id/cancelButton"
+       		android:layout_width="0dip"
+        	android:layout_weight="1"
+       		android:layout_height="wrap_content"
+            android:text="@string/cancel_name"/>       
+    </TableRow>
+</TableLayout>

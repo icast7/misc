@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location Recorder</string>   
+    <string name="cancel_name">Cancel</string>
+    <string name="inter_default">Choose a unit</string>
+    <string name="interval_name">GPS Interval</string>
+    <string name="latitude_name">Latitude</string>    
+    <string name="longitude_name">Longitude</string>
+    <string name="login_name">Login</string>
+    <string name="main_name">Main</string>
+    <string name="password_name">Password</string>
+    <string name="route_name">Route Id</string>
+    <string name="save_name">Save</string>
+    <string name="seconds_name">seconds</string>
+    <string name="send_name">SEND</string>
+    <string name="settings_name">Settings</string>
+    <string name="stop_name">Stop</string>
+    <string name="trans_interval_name">Trans. Interval</string>
+    <string name="url_name">URL</string>    
+    <string name="start_name">Start</string>
+
+    <string-array name="inter_units">
+        <item>seconds</item>
+        <item>meters</item>
+    </string-array>   
+    <color name="white">#FFFFFF</color>   
+    <string name="route_long_name">Route Name</string>
+</resources>

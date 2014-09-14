@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF333333" >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/routeidLabel"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/route_name" />
+
+        <EditText
+            android:id="@+id/routeidValue"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:inputType="number" >
+        </EditText>
+
+        <RadioButton
+            android:id="@+id/transmittingValue"
+            android:layout_column="2" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/routeName"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/route_long_name" />
+
+        <EditText
+            android:id="@+id/routenameValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:hint=""
+            android:text="" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/longLabel"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/longitude_name" />
+
+        <EditText
+            android:id="@+id/longValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:hint=""
+            android:inputType="numberDecimal|numberSigned"
+            android:text="" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/latLabel"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/latitude_name" />
+
+        <EditText
+            android:id="@+id/latValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:hint=""
+            android:inputType="numberDecimal|numberSigned"
+            android:text="" >
+        </EditText>
+    </TableRow>
+
+    <TableRow android:padding="0dp" >
+        <WebView
+            android:id="@+id/webkit"
+            android:layout_width="match_parent"
+            android:layout_height="255dip"
+            android:layout_column="0"
+            android:layout_span="4"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow android:padding="0dp" >
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/start_name" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/stop_name" />
+    </TableRow>
+
+</TableLayout>

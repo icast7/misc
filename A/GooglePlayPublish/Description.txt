@@ -1,0 +1,5 @@
+This Android Application allows you to sample your location points at time/distance intervals and send them to a webserver. You can then use a Web Application to view your location points in Google Maps. The location points are NEVER saved to your mobile device. 
+
+An example of the Web Application can be seen at http://web.cecs.pdx.edu/~jwater/
+
+User Manuals for installing and using the Mobile and Web Applications are available in the User Manuals sectio at https://projects.cecs.pdx.edu/projects/omse-cpg/wiki
