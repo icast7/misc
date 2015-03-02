@@ -1,0 +1,1 @@
+$SPARK_HOME/bin/spark-submit --class com.oreilly.learningsparkexamples.mini.java.WordCount ./target/learning-spark-mini-example-0.0.1.jar $SPARK_HOME/README.md ./wordcounts
